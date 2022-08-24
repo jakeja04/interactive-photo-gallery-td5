@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 let searchBox = document.querySelector('#searchbar');
 let pictures = document.querySelectorAll('a');
 
