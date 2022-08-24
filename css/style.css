@@ -1,0 +1,28 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-gap: 30px;
+  max-width: 1024px;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.gallery-item {
+  width: 200px;
+  height: 200px;
+  object-position: center;
+}
+
+#searchbar {
+  margin: 32px auto 0;
+  width: 50%;
+  max-width: 500px;
+  display: block;
+  padding: 20px 10px;
+  border: 2px solid lightgrey;
+  border-radius: 8px;
+}
